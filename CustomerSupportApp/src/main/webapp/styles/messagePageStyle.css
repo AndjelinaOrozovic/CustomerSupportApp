@@ -1,0 +1,44 @@
+body {
+	font-family: Roboto, Arial, 'Times New Roman';
+	overflow-x: hidden;
+}
+
+.table-messages {
+	width: calc( 100% - 24px );
+	margin: 25px 12px;
+}
+
+.table-messages thead {
+	border-bottom-width: 3px;
+}
+
+.customer-header {
+	padding: 1%;
+	background-color: lightblue;
+	justify-content: space-between;
+}
+
+.customer-navbar {
+	justify-content: space-between;
+}
+
+.navbar-btn-margin {
+	margin: 1px 12px;
+}
+
+.unopened {
+	font-weight: bold;
+	background-color: #b3caf7;
+}
+
+.opened {
+	font-weight: normal;
+}
+
+.replay-btn {
+	height: 1px;
+}
+
+#message-content {
+	max-width: 720px;
+}
